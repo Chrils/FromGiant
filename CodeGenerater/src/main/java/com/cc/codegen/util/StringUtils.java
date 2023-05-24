@@ -36,4 +36,8 @@ public final class StringUtils {
         }
     }
 
+    public static boolean isNotEmpty(String src) {
+        return !src.isEmpty();
+    }
+
 }
